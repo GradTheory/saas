@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "ff";
+  src: local("GoldmanBold"),
+   url("./font/fo.ttf") format("truetype");
+  font-weight: bold;
+  }
+  @font-face {
+    font-family: "fh";
+    src: local("GoldmanBoldd"),
+     url("./font/fh.ttf") format("truetype");
+    font-weight: bold;
+    }
+    @font-face {
+      font-family: "fsb";
+      src: local("GoldmanBolddd"),
+       url("./font/fsb.ttf") format("truetype");
+      font-weight: bold;
+      }
+      @font-face {
+        font-family: "fb";
+        src: local("GoldmanBoldddd"),
+         url("./font/fb.ttf") format("truetype");
+        font-weight: bold;
+        }
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
